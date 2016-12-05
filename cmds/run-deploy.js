@@ -5,7 +5,7 @@ const cmdFn = () => {
 
 	return runBuild().then(() => {
 
-		console.log("do your deployment script here")
+		console.log("setup your deployment code here")
 
 	})
 
