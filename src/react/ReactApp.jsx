@@ -7,6 +7,6 @@ import routes from './app/AppRoutes';
 export class ReactApp extends React.Component {
 
 	render() {
-		return <Router history={hashHistory}>{routes}</Router>
+		return <Router history={browserHistory}>{routes}</Router>
 	}
 }

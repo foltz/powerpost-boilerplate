@@ -18,6 +18,6 @@
  
 * npm install - will install all of the node_modules
 * npm start - starts webpack-dev-server on localhost:3000
-* npm build - compiles index.html and appLoader.js into the /dist folder
-* npm deploy - runs the node scripts for build and deploy
-* npm demo - runs the express demo and webpack-dev-server
+* npm run build - compiles index.html and appLoader.js into the /dist folder
+* npm run deploy - runs the node scripts for build and deploy
+* npm run demo - runs the express demo and webpack-dev-server
