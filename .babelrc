@@ -1,0 +1,28 @@
+{
+  "presets": [
+    ["es2015", {"modules": false}],
+    "react",
+    "stage-1"
+  ],
+  "plugins": [
+    "transform-decorators-legacy"
+  ],
+
+  "env": {
+    "dev": {
+      "plugins": [
+        "react-hot-loader/babel"
+      ]
+    },
+    "test": {
+      "plugins": [
+        [
+          "__coverage__",
+          {
+            "ignore": "*.test.*"
+          }
+        ]
+      ]
+    }
+  }
+}

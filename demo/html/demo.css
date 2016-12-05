@@ -1,0 +1,5 @@
+body {
+	font-family: Helvetica, sans-serif;
+}
+.main-menu { margin: 4px; padding: 4px; border: solid 1px #ddd; }
+.main-menu a { margin-right: 6px;}
